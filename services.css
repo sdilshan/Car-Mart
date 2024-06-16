@@ -1,0 +1,277 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+
+body{
+   
+   background-color: white;
+}
+
+
+.header{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, rgba(0,0,0,0.5)100%, rgba(0,0,0,0.5)50%),url(images/service1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 50px;
+
+}
+.title h2{
+    font-size: 56px;
+    color: orangered;
+    
+    
+
+}
+
+.traders
+{
+    background-color:rgb(255, 255, 255,0.6);
+    width: 320px;
+}
+.services{
+    color: white;
+    font-size: 46px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+.left{padding: 45px;
+    float: left;
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+    height: 132vh;
+}
+.right{padding: 45px;
+    float: right;
+    text-align: right;
+    width: 50%;
+    box-sizing: border-box;
+   height: 132vh; 
+
+}
+.right h1{color: red;
+    
+    padding-top: 100px;
+   
+
+}
+.left h1{
+    color: red;
+    padding-top: 100px;
+    
+    
+
+}
+.left p{
+  padding-top: 45px;
+  padding-bottom: 45px;
+    text-align: left;
+   
+    width: 80%;
+}
+.left button{float: left;
+   
+    width: 160px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px;
+}
+.left img{padding-top: 40px;
+   
+    width: 80%;
+    height: 330px;
+    padding-bottom: 100px;
+}
+
+
+.bottom{
+    position: relative;
+}
+ button{
+     position: relative;
+ 
+    background-color: rgba(1,1,1,0.7);
+    width: 100px;
+    height: 1cm;
+    border-radius: 10px;
+    float: right;
+   margin-left: 20px;
+}
+
+ a{
+    
+    font-size: 25px;
+   text-decoration: none;
+   color: orangered;
+   
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.clear{
+    clear: both;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(75, 27, 27, 0.4)100%, rgba(255,0,0, 0.6)50%);
+
+}
+.right button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(255,0,0, 0.4)100%, rgba(255,0,0, 0.6)50%);
+
+}
+.right img{
+    
+    width: 80%;
+    height: 330px;
+    padding-top: 100px;
+}
+.right p{
+  
+    text-align: right;
+  float: right;
+    width: 80%;
+    padding-bottom: 45px;
+}
+.right button{
+   
+    width: 160px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.line2{
+
+    margin-top: 70px;
+  
+}
+.line1 .left,.line2 .right,.line3 .left{
+    background-color: rgb(212, 212, 142);
+}
+
+
+
+.line3{
+
+    margin-top: 70px;
+}
+.home{
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+.home a{transform: scale(1);
+    transition: 0.3s ease-out;
+    color: white;
+}
+.home a:hover{
+    transform:scale(1.03);
+    text-decoration: underline;
+}
+@media(max-width:1000px){
+.home{
+    display: flex;
+    justify-content: center;
+}
+   
+    .title{
+       display: flex;
+      
+       justify-content: center;
+   }
+   .left{width: 100%;
+       height: auto;
+       
+   }
+   .right
+    {float: none;
+      width: 100%;
+      height: auto;
+      
+   }
+.right h1,.left h1{width: 100%;
+    text-align: center;
+}
+.right p , .left p{
+    text-align: center;
+    width: 100%;
+}
+.left h1{
+    margin-left: 0;
+}
+.left img{width: 100%;
+    height: 350px;
+
+
+}
+.right img{width: 100%;
+    height: 350px; 
+    
+
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.header{margin: auto;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line1 .left{
+   background-color: rgb(222, 228, 228); 
+}
+.line2 .left{
+    background-color: rgb(229, 233, 233); 
+ }
+ .line3 .left{
+    background-color: rgb(230, 238, 238); 
+ }
+ .line2 .right{
+    background-color: white; 
+ }
+ .services{
+     position: relative;
+     top: 70px;
+ }
+
+
+
+}
+@media(max-width:600px){
+    .left img{width: 100%;
+        height: 250px;
+    
+    
+    }
+    .right img{width: 100%;
+       
+        height: 250px; 
+    }
+}
+.foot{
+    padding-top: 18px;
+    background-color: rgb(190, 186, 184);
+    height: 20px;
+    text-align: right;
+    padding-right: 7px;
+   
+   
+}

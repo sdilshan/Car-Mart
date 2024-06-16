@@ -1,0 +1,174 @@
+
+body{background-color: rgb(232, 236, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+
+}
+
+.carimg{border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    
+}
+.images{margin: auto;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+}
+.li div{
+    display: inline;
+}
+.li{
+    padding: 10px;
+    text-align: justify;
+    padding-right: 20px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 17px;
+}
+.content{
+    text-align: justify;
+   
+
+}
+.details{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.photos1{
+  float: right;
+    display: block;
+    padding: 10px;
+}
+.photos2{
+    float: right;
+      display: block;
+      padding: 10px;
+  }
+  .photos3{
+    float: right;
+      display: block;
+      padding: 10px;
+  }
+.main{height: 112vh;
+  width: 90%;  
+  background-color: white;
+  margin: auto;
+  position: relative;
+}
+.title{
+    font-size: 30px;
+    padding-left: 10%
+}
+.photos4{
+    visibility: hidden;
+}
+
+.clear{
+    clear: both;
+}
+.foot{padding-top: 14px;
+    background-color: rgb(173, 165, 162);
+    height: 20px;
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 4px;
+   
+
+}
+.hlog{
+    width: 14px;
+}
+.logo div{
+    display: inline;
+}
+.logo{color: orangered;
+    font-size: 40px;
+    margin-bottom: 25px;
+    
+}
+.btn{
+    position: relative;
+    bottom: 3px;
+    
+}
+.btn1{
+    position: relative;
+    bottom: 40px;
+  left: 100px;
+}
+.all{height: 40px;
+    display: inline;
+    position: fixed;
+    bottom: -3px;
+}
+
+ button{
+    bottom: 10px;
+    background-color: rgba(1,1,1,0.7);
+    width: 100px;
+    height: 1cm;
+    border-radius: 10px;
+   
+}
+
+
+
+ .all a{
+    
+    font-size: 25px;
+   text-decoration: none;
+   color: orangered;
+   
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top{
+    
+    
+    background-color: rgba(0,0,0,0.8);
+}
+.tr{
+    background-color: rgb(255, 255, 255,0.8);
+}
+@media(max-width:800px){
+
+.title{
+   padding-left: 0px;
+}
+
+.details{
+    float: none;
+    width: 100%;
+}
+.photos3{
+   display: none;
+}
+.photos2 img{
+    display: none;
+}
+.images{float: none;
+    width: 100%;
+}
+.photos1{
+    float: none;
+}
+.photos1 img{
+    width: 80%;
+    height: auto;
+}
+.photos4{
+    visibility: visible;
+}
+.main{
+    height: auto;
+}
+.photos1{ 
+    padding-left: 0;
+}
+}

@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    background-color: rgb(51, 61, 56);
+}
+.top{
+    height: 110px;
+    background-color: rgb(25, 5, 56);
+    padding-left: 40px;
+}
+
+.sale h2{
+    color: red;
+    font-size: 38px;
+   margin: 0px;
+}
+.home{
+    color: white;
+}
+.home a{text-decoration: none;
+    color: rgb(247, 224, 224);  
+}
+.home a:hover{
+text-decoration: underline;
+}
+.row{margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.car1 img,.car2 img,.car3 img{
+    width: 400px;
+    height: 300px;
+}
+.datails{
+    background-color: rgb(47, 53, 59);
+}
+.bname{
+    color: rgb(184, 183, 185);
+}
+.datails img{
+    width: 30px;
+    height: 20px;
+    float: left;
+    padding-top: 5.5px;
+}
+.price{
+    padding-left: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(33, 230, 76);
+    font-weight: bold;
+    width: 52%;
+}
+.sub-details{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(56, 58, 59);
+    
+}
+.div{
+  margin-top: 10px;
+  background-color: snow;
+  width: 165px;
+}
+.more a{
+    font-size: 20px;
+    color: white;
+}
+.divq{
+    margin-top: 10px;
+    color: rgb(184, 189, 188);
+}
+.sub-details a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(216, 197, 197);
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+hr{
+   margin-top: 30px;
+   margin-bottom: 30px;
+  border: 2px white dotted;
+   
+}
+.foot{
+    padding-top: 18px;
+    background-color: rgb(21, 10, 37);
+    height: 20px;
+    text-align: right;
+    padding-right: 7px;
+   color: red;
+   
+}
+.btn{
+    position: fixed;
+    bottom: 36px;
+    right: 1px;
+}
+
+ button{
+    bottom: 10px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100px;
+    height: 1cm;
+    border-radius: 10px;
+   
+}
+.btn a{
+    
+    font-size: 25px;
+   text-decoration: none;
+   color: red;
+   
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
